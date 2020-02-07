@@ -3,7 +3,9 @@ package com.techsophy.service
 import org.json4s._
 import org.json4s.native.{JsonMethods, Serialization}
 
-
+/**
+ * High Level Service for converting scala objects into json and vice-versa
+ */
 trait HighLevelService {
 
   implicit val formats = DefaultFormats
@@ -18,6 +20,5 @@ trait HighLevelService {
     val employeeList: List[Employee] = lowLevelService.getAll()
     Serialization.write(employeeList)
   }
-
 
 }

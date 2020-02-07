@@ -8,7 +8,6 @@ trait LowLevelService {
 
   def delete(id: Int): Int
 
-  def getById(id: Int): Option[Employee]
 
   def getAll(): List[Employee]
 

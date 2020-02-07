@@ -6,8 +6,7 @@ import org.scalatest.wordspec.AnyWordSpec
 
 
 class HighLevelServiceSpec extends AnyWordSpec with MockitoSugar with Matchers {
-
-
+  
   /**
    * LowLevelService Mocked instance
    */
