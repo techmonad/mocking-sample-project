@@ -1,4 +1,4 @@
-package com.techsophy.service
+package com.techmonad.service
 
 trait LowLevelService {
 

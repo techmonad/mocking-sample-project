@@ -1,4 +1,4 @@
-package com.techsophy.service
+package com.techmonad.service
 
 import org.json4s._
 import org.json4s.native.{JsonMethods, Serialization}

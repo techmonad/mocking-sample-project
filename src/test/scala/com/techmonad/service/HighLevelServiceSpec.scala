@@ -1,4 +1,4 @@
-package com.techsophy.service
+package com.techmonad.service
 
 import org.mockito.MockitoSugar
 import org.scalatest.matchers.must.Matchers
@@ -6,7 +6,7 @@ import org.scalatest.wordspec.AnyWordSpec
 
 
 class HighLevelServiceSpec extends AnyWordSpec with MockitoSugar with Matchers {
-  
+
   /**
    * LowLevelService Mocked instance
    */
@@ -21,6 +21,7 @@ class HighLevelServiceSpec extends AnyWordSpec with MockitoSugar with Matchers {
      */
     override val lowLevelService: LowLevelService = mockedLowLevelService
   }
+  
   "HighLevelService " should {
 
     "get employee list as json" in {
