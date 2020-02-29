@@ -1,6 +1,6 @@
 name := "mocking-sample-project"
 
-version := "0.2
+version := "0.3"
 
 scalaVersion := "2.13.1"
 
